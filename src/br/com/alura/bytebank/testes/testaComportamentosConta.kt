@@ -32,20 +32,20 @@ fun testaComportamentosConta() {
     println(" saldo da conta ${contaPatricia.saldo}")
     println("-----------------------------------------")
 
-    println(" Depositando na conta do Reinaldo ")
+    println(" depositando na conta do Reinaldo ")
     contaReinaldo.deposita(50.0)
     println(contaReinaldo.saldo)
 
 
-    println(" Depositando na conta da Patricia ")
+    println(" depositando na conta da Patricia ")
     contaPatricia.deposita(150.00)
     println(contaPatricia.saldo)
 
-    println(" Depositando na conta do Christian ")
+    println(" depositando na conta do Christian ")
     contaChristian.deposita(250.00)
     println(contaChristian.saldo)
 
-    println(" Sacando na conta do Christian")
+    println(" sacando na conta do Christian")
     contaChristian.saca(800.0)
     println(contaChristian.saldo)
 

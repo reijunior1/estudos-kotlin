@@ -15,7 +15,7 @@ fun testaContasDiferentes() {
                     nome = "Patricia",
                     cpf = "",
                     senha = 2,
-                    endereco = Endereço(logradouro = "Av Governador Adhemar")
+                    endereco = Endereço(logradouro = "Av Governador ")
             ),
             numero = 1001
     )
